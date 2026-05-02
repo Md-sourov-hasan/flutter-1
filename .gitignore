@@ -28,7 +28,6 @@
 .classpath
 .project
 .settings/
-.vscode/*
 .ccls-cache
 
 # This file, on the master branch, should never exist or be checked-in.
@@ -154,7 +153,6 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
-!.vscode/settings.json
 
 # Monorepo
 .cipd
@@ -167,3 +165,7 @@ app.*.symbols
 # AI related
 .agents/rules/personal-*
 .agents/skills/personal-*
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
